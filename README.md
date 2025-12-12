@@ -178,3 +178,17 @@ python3 tb3_auto.py extra --qr-follow --target "FOLLOW_ME"
 
 ## License
 Educational use for coursework.
+
+
+## Demo Video
+- Video: <PASTE_YOUR_VIDEO_LINK_HERE>
+
+
+## Documentation
+- docs/00_OVERVIEW.md
+- docs/01_INSTALL.md
+- docs/02_USAGE.md
+- docs/03_ARCHITECTURE.md
+- docs/04_VIDEO_SCRIPT.md
+- docs/05_REFLECTION.md
+- docs/06_GITHUB_SETUP.md
