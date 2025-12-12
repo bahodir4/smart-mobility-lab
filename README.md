@@ -145,21 +145,9 @@ python3 tb3_auto.py extra --qr-follow --image /camera/image_raw --cmd-vel /cmd_v
 ```bash
 python3 tb3_auto.py extra --qr-follow --target "FOLLOW_ME"
 ```
-
 ---
 
-## 6) Suggested Demo Video Flow (2–5 minutes)
-
-1. Show repo + `tb3_auto.py --help`
-2. Start simulation
-3. Start `maintenance --monitor` (show logs)
-4. Start `navigation --nav2-slam` (show robot moving + map building)
-5. Start YOLO detection (show annotated topic in RViz/ImageView)
-6. Run QR follower and show it turning toward a QR code printout
-
----
-
-## 7) Troubleshooting
+## 6) Troubleshooting
 
 - If `/camera/image_raw` doesn’t exist, run:
   ```bash
@@ -178,17 +166,3 @@ python3 tb3_auto.py extra --qr-follow --target "FOLLOW_ME"
 
 ## License
 Educational use for coursework.
-
-
-## Demo Video
-- Video: <PASTE_YOUR_VIDEO_LINK_HERE>
-
-
-## Documentation
-- docs/00_OVERVIEW.md
-- docs/01_INSTALL.md
-- docs/02_USAGE.md
-- docs/03_ARCHITECTURE.md
-- docs/04_VIDEO_SCRIPT.md
-- docs/05_REFLECTION.md
-- docs/06_GITHUB_SETUP.md
