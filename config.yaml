@@ -1,0 +1,21 @@
+ros_distro: humble
+tb3_model: burger
+
+# Simulation / time
+use_sim_time: true
+
+# Topics
+camera_topic: /camera/image_raw
+scan_topic: /scan
+cmd_vel_topic: /cmd_vel
+
+# YOLO
+yolo_model: yolov8n.pt
+detections_topic: /detections
+annotated_topic: /yolo/annotated
+
+# QR follower
+qr_target_text: ""           # optional: if set, follow only this QR payload
+qr_linear_speed: 0.08
+qr_angular_kp: 0.0035        # steering proportional gain
+qr_center_tolerance_px: 30   # pixels
